@@ -46,3 +46,27 @@ ray@daw1 ~/E/r/r/testdir> ./test
 Congratulations! Your Rust program works.
 ```
 
+## adenda: wez's term emulator (uses rust)
+
+[install](https://wezfurlong.org/wezterm/install/linux.html) 
+
+```sh
+sudo apt install flatpak
+flatpak install flathub org.wezfurlong.wezterm
+
+Tenga en cuenta que las carpetas 
+
+'/var/lib/flatpak/exports/share'
+'/home/ray/.local/share/flatpak/exports/share'
+
+no se encuentran en la ruta de búsqueda establecida por la variable de entorno
+XDG_DATA_DIRS, por lo que es posible que las aplicaciones instaladas por
+Flatpak no aparezcan en su escritorio hasta que se reinicie la sesión.
+```
+
+,, `flatpak run org.wezfurlong.wezterm` fails ; reset session: 
+
+abandono. sigo con kitty
+
+
+## - [ ] usos de rust
