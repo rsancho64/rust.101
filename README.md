@@ -42,6 +42,8 @@ fn main() {
 ```
 
 ```sh
+
+ray@daw1 ~/E/r/r/testdir> rustc ./test.rs
 ray@daw1 ~/E/r/r/testdir> ./test 
 Congratulations! Your Rust program works.
 ```
@@ -67,6 +69,5 @@ Flatpak no aparezcan en su escritorio hasta que se reinicie la sesión.
 ,, `flatpak run org.wezfurlong.wezterm` fails ; reset session: 
 
 abandono. sigo con kitty
-
 
 ## - [ ] usos de rust
